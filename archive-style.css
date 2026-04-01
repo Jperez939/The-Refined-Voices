@@ -1,0 +1,56 @@
+body {
+      font-family: 'Montserrat', sans-serif;
+      background: #f9f9fb;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+.container {
+      max-width: 700px;
+      padding: 60px 20px;
+    }
+
+h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #69a3a6
+    }
+p {
+    text-align: center;
+    color: #78726a;
+    margin-bottom: 40px;
+}
+.homepage-link{
+    color: #69a3a6;
+}
+.card {
+      background: #69a3a6;
+      padding: 30px;
+      border-radius: 18px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    }
+input, textarea {
+      width: 95%;
+      margin-bottom: 15px;
+      padding: 12px;
+      border-radius: 10px;
+      border: 1px solid #ddd;
+      font-family: inherit;
+    }
+
+button {
+      width: 100%;
+      padding: 14px;
+      border-radius: 999px;
+      border: none;
+      background: #222;
+      color: white;
+      font-weight: 500;
+      cursor: pointer;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+button:hover {
+      background: #444;
+    }

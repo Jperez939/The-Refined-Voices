@@ -6,17 +6,32 @@
         <title>Community Archive</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="archive-style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+        <div class="container">
+            <h1>Upload Your Archive</h1>
+            <p>Share your version of <a href="index.html" class="homepage-link"><strong><em>The Refined Voices</em></strong></a>. Upload a photo of your finished archive including all materials and contribute to the growing archive.<br><br>In the description box be sure to share the date of completion, duration of the act, discussion topic(s), and materials used.</p>
+
+            <div class="card">
+                <form>
+                    <input type="text" placeholder="Your Name(s) (optional)" />
+                    <textarea placeholder="Archive Description..." rows="4"></textarea>
+                    <input type="file" />
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="card" style="margin-top:30px;">
+            <h2 style="text-align:center;">Community Archive Gallery</h2>
+            <p style="text-align:center; color:white;">Images you upload will appear here.</p>
+            <div id="gallery" style="display:grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap:15px; margin-top:20px;"></div>
+        </div>
         
-        <script src="" async defer></script>
+        <script src="archive-script.js" async defer></script>
     </body>
 </html>
